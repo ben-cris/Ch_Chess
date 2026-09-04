@@ -30,3 +30,17 @@ engine/bin/
 
 # 本地启动器（含本机绝对路径，不入库）
 /启动象棋辅助工具.bat
+
+# ---- Android (M0) 构建产物 ----
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/captures/
+android/app/src/main/python/core/
+android/app/src/main/python/rules/
+android/app/src/main/python/ai/
+android/app/src/main/python/models/
+android/app/src/main/python/app/
+android/app/src/main/python/engine/
