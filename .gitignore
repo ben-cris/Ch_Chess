@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 测试与缓存
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 运行产物
+settings.json
+logs/
+dist/
+build/
+*.spec
+
+# 存档/临时
+*.json.tmp
+# 外部引擎（随包下载体积大，用 scripts/fetch_pikafish.ps1 获取）
+engine/bin/
+
+# 本地启动器（含本机绝对路径，不入库）
+/启动象棋辅助工具.bat

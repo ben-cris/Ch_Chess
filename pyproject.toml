@@ -1,0 +1,13 @@
+[project]
+name = "xiangqi-assistant"
+version = "1.0.0"
+description = "象棋辅助工具：现实棋局模拟、记录与分析（含揭棋）"
+requires-python = ">=3.11"
+dependencies = ["PySide6>=6.6"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pyinstaller>=6.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
